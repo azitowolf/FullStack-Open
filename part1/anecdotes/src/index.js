@@ -40,15 +40,16 @@ const App = (props) => {
 
   const crowdFavoriteJSX = () => {
     
-    return crowdFavorite ? 
-      <>
-        <div>{props.anecdotes[crowdFavorite]}</div>
-        <div>has {points[crowdFavorite]} votes</div>
-      </>
+    return crowdFavorite 
+      ? 
+        <>
+          <div>{props.anecdotes[crowdFavorite]}</div>
+          <div>has {points[crowdFavorite]} votes</div>
+        </>
       : 
-      <div>
-        Sorry, no Favorite Selected. Vote to help choose!
-      </div>
+        <div>
+          Sorry, no Favorite Selected. Vote to help choose!
+        </div>
   }
   
   return (
