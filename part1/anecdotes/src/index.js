@@ -46,9 +46,9 @@ const App = (props) => {
         <div>has {points[crowdFavorite]} votes</div>
       </>
       : 
-        <div>
-          Sorry, no Favorite Selected. Vote to help choose!
-        </div>
+      <div>
+        Sorry, no Favorite Selected. Vote to help choose!
+      </div>
   }
   
   return (
