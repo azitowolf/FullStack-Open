@@ -8,7 +8,6 @@ const Filter = ({numberFilter, setNumberFilter}) => {
       
     return ( 
         <div>
-            <h2>Filter</h2>
             <input
                 value={numberFilter}
                 onChange={handleFilterChange}

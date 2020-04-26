@@ -5,7 +5,7 @@ import React from 'react'
       ? 'make not important' : 'make important'
   
     return (
-      <li>
+      <li className='note'>
         {note.content} 
         <button onClick={toggleImportance}>{label}</button>
       </li>
