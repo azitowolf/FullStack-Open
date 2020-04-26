@@ -3,18 +3,19 @@ import axios from 'axios'
 import Persons from './components/Persons';
 import PersonForm from './components/PersonForm';
 import Filter from './components/Filter';
+import personService from './services/persons'
+
 
 const App = () => {
   const [persons, setPersons] = useState([]);
   const [numberFilter, setNumberFilter] = useState('');
 
   useEffect(() => {
-    axios
-      .get('http://localhost:3001/persons')
-      .then(response => {
-        console.log(`promise fulfilled, data: ${JSON.stringify(response.data)}`)
-        setPersons(response.data)
-      })
+    personService
+      .getAll()
+        .then(people => {
+          setPersons(people)
+        })
   }, [])
 
   return (
@@ -22,7 +23,11 @@ const App = () => {
       <h1>Phonebook</h1>
       <Filter numberFilter = {numberFilter} setNumberFilter = {setNumberFilter} />
       <PersonForm persons = {persons} setPersons = {setPersons} /> 
-      <Persons persons = {persons} numberFilter = {numberFilter} />
+      <Persons 
+        persons = {persons} 
+        numberFilter = {numberFilter} 
+        setPersons = {setPersons}
+      />
     </div>
   )
 }

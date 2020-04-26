@@ -1,6 +1,7 @@
 import React from 'react';
+import personService from '../services/persons'
 
-const Persons = ({persons, numberFilter}) => {
+const Persons = ({persons, numberFilter, setPersons}) => {
 
     const renderNumbersAndFilter = () => {
       let filteredList = persons; 
@@ -11,6 +12,16 @@ const Persons = ({persons, numberFilter}) => {
         <div key={i}>
           <div>Name: {person.name}</div> 
           <div>Number: {person.number} </div>
+          <button onClick = {()=>{
+            if (window.confirm("Do you really want to delete this person")) { 
+              personService.del(person.id).then(response => {
+                let updated = persons.filter(i => person.id !== i.id)
+                setPersons(updated)
+              })
+            }
+          }}>
+            delete
+          </button>
         </div>
       ))
       return renderedJSX;

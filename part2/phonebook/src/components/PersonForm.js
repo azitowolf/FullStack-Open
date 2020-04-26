@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import personService from '../services/persons'
 
 const PersonForm = ({persons, setPersons}) => {
     const [newName, setNewName] = useState('');
@@ -13,18 +14,30 @@ const PersonForm = ({persons, setPersons}) => {
     
       const addPerson = (event) => {
         event.preventDefault()
-        const personObject = {
+        const newPerson = {
           name: newName,
           number: newNumber, 
         }
-        const namesArr = persons.map((person => person.name))   
-        const numsArr = persons.map((person => person.number))
-    
-        if (namesArr.indexOf(newName) >= 0 || numsArr.indexOf(newNumber) >= 0 ) { 
-          alert(`${newName} or ${newNumber} is already added to phonebook`)
-          return;
+        // dupe handling                 
+        if (persons.map((person => person.name)).indexOf(newPerson.name) !== -1) { 
+          const personToChange = persons.find(n => n.name === newPerson.name); 
+          const id = personToChange.id; 
+          const changedPerson = {...personToChange, number:newPerson.number}
+          
+          if (window.confirm(`${newPerson.name} is already added, do you want to update their number?`)) { 
+            personService.update(
+              id, changedPerson)
+              .then(response => {
+                let updated = persons.map(i => i.id !== id ? i : response)
+                setPersons(updated)
+            })
+          }
+        } else {
+          personService.create(newPerson)
+          .then(newPerson => {
+            setPersons(persons.concat(newPerson))
+          })
         }
-        setPersons(persons.concat(personObject))
         setNewName('')
         setNewNumber('')
       }
