@@ -52,6 +52,10 @@ const PersonForm = ({persons, setPersons, setNotification}) => {
           setPersons(persons.concat(newPerson))
           initiateNotification(`Note '${newPerson.name}' was added to the server`, 'notify');
         })
+        .catch(error => {
+          console.log(error.response.data);
+          initiateNotification(error.response.data.error, 'error');
+        })
       }
       setNewName('')
       setNewNumber('')
