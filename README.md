@@ -37,5 +37,5 @@ FSO-part3-phonebook-backend https://github.com/azitowolf/FSO-part3-phonebook-bac
 
 Live Demos:
 
-notes - https://pure-garden-57296.herokuapp.com/
-phonebook - https://desolate-citadel-80539.herokuapp.com/
+notes - https://fso-part3-notes-backend.herokuapp.com/
+phonebook - https://fso-part3-phonebook-backend.herokuapp.com/
