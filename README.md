@@ -21,10 +21,10 @@ Let's continue our introduction to React. First, we will take a look at how to r
 
 Response repos: 
 
-FSO-part2-countries https://github.com/azitowolf/FSO-part2-countries\
-FSO-part2-courseinfo https://github.com/azitowolf/FSO-part2-courseinfo\
-FSO-part2-notes https://github.com/azitowolf/FSO-part2-notes\
-FSO-part2-phonebook https://github.com/azitowolf/FSO-part2-phonebook\
+FSO-part2-countries https://github.com/azitowolf/FSO-part2-countries  
+FSO-part2-courseinfo https://github.com/azitowolf/FSO-part2-courseinfo  
+FSO-part2-notes https://github.com/azitowolf/FSO-part2-notes  
+FSO-part2-phonebook https://github.com/azitowolf/FSO-part2-phonebook  
 
 ### part3
 
@@ -32,13 +32,13 @@ In this part our focus shifts towards the backend, that is, towards implementing
 
 Response repos: 
 
-FSO-part3-notes-backend https://github.com/azitowolf/FSO-part3-notes-backend\
-FSO-part3-phonebook-backend https://github.com/azitowolf/FSO-part3-phonebook-backend\
+FSO-part3-notes-backend https://github.com/azitowolf/FSO-part3-notes-backend  
+FSO-part3-phonebook-backend https://github.com/azitowolf/FSO-part3-phonebook-backend  
 
 Live Demos:
 
-notes - https://fso-part3-notes-backend.herokuapp.com/\
-phonebook - https://fso-part3-phonebook-backend.herokuapp.com/\
+notes - https://fso-part3-notes-backend.herokuapp.com/  
+phonebook - https://fso-part3-phonebook-backend.herokuapp.com/  
 
 ### part4
 
@@ -46,5 +46,5 @@ In this part, we will continue our work on the backend. Our first major theme wi
 
 Response repos: 
 
-FSO-part4-notes-backend https://github.com/azitowolf/FSO-part4-notes-backend\
-FSO-part4-blog-backend https://github.com/azitowolf/FSO-part4-blog-backend\
+FSO-part4-notes-backend https://github.com/azitowolf/FSO-part4-notes-backend  
+FSO-part4-blog-backend https://github.com/azitowolf/FSO-part4-blog-backend  
