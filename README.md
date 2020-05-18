@@ -39,3 +39,12 @@ Live Demos:
 
 notes - https://fso-part3-notes-backend.herokuapp.com/
 phonebook - https://fso-part3-phonebook-backend.herokuapp.com/
+
+### part4
+
+In this part, we will continue our work on the backend. Our first major theme will be writing unit and integration tests for the backend. After we have covered testing, we will take a look at implementing user authentication and authorization.
+
+Response repos: 
+
+FSO-part4-notes-backend https://github.com/azitowolf/FSO-part4-notes-backend
+FSO-part4-blog-backend https://github.com/azitowolf/FSO-part4-blog-backend
