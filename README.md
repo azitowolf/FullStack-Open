@@ -48,3 +48,14 @@ Response repos:
 
 FSO-part4-notes-backend https://github.com/azitowolf/FSO-part4-notes-backend  
 FSO-part4-blog-backend https://github.com/azitowolf/FSO-part4-blog-backend 
+
+### part5
+
+In this part we return to the frontend, first looking at different possibilities for testing the React code. We will also implement token based authentication which will enable users to log in to our application.
+
+Response repos:
+
+FSO-part4-notes: https://github.com/azitowolf/FSO-part5-notes  
+FSO-part4-blog: https://github.com/azitowolf/FSO-part5-blog
+
+Exercise Notes: https://github.com/azitowolf/FSO-part5-blog
