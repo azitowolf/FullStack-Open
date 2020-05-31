@@ -28,7 +28,7 @@ FSO-part2-phonebook https://github.com/azitowolf/FSO-part2-phonebook
 
 ### part3
 
-In this part our focus shifts towards the backend, that is, towards implementing functionality on the server side of the stack. We will implement a simple REST API in Node.js by using the Express library, and the application's data will be stored in a MongoDB database. At the end of this part, we will deploy our application to the internet.
+In this part our focus shifts towards the backend, that is, towards implementin`g functionality on the server side of the stack. We will implement a simple REST API in Node.js by using the Express library, and the application's data will be stored in a MongoDB database. At the end of this part, we will deploy our application to the internet.
 
 Response repos: 
 
@@ -47,4 +47,4 @@ In this part, we will continue our work on the backend. Our first major theme wi
 Response repos: 
 
 FSO-part4-notes-backend https://github.com/azitowolf/FSO-part4-notes-backend  
-FSO-part4-blog-backend https://github.com/azitowolf/FSO-part4-blog-backend  
+FSO-part4-blog-backend https://github.com/azitowolf/FSO-part4-blog-backend 
