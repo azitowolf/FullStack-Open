@@ -59,3 +59,13 @@ FSO-part4-notes: https://github.com/azitowolf/FSO-part5-notes
 FSO-part4-blog: https://github.com/azitowolf/FSO-part5-blog
 
 Exercise Notes: https://github.com/azitowolf/FSO-part5-blog
+
+### part6
+
+So far, we have placed the application's state and state logic directly inside React-components. When applications grow larger, state management should be moved outside React-components. In this part, we will introduce the Redux-library, which is currently the most popular solution for managing the state of React-applications.
+
+Response Repos:
+
+FSO-part6-unicafe: https://github.com/azitowolf/FSO-part6-unicafe
+FSO-part6-anecdotes: https://github.com/azitowolf/FSO-part6-anecdotes
+FSO-part6-notes: https://github.com/azitowolf/FSO-part6-notes
