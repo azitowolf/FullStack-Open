@@ -76,4 +76,8 @@ The seventh part of the course touches on several different themes. First, we'll
 
 Response Repos: 
 
-part-7anecdotes: https://github.com/azitowolf/FSO-part7-anecdotes
+FSO-part-7-anecdotes: https://github.com/azitowolf/FSO-part7-anecdotes
+FSO-part7-countries: https://github.com/azitowolf/FSO-part7-countries
+FSO-part7-notes: https://github.com/azitowolf/FSO-part7-notes
+FSO-part7-ultimate-hooks: https://github.com/azitowolf/FSO-part7-ultimate-hooks
+
