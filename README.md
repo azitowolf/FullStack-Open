@@ -80,4 +80,5 @@ FSO-part-7-anecdotes: https://github.com/azitowolf/FSO-part7-anecdotes
 FSO-part7-countries: https://github.com/azitowolf/FSO-part7-countries
 FSO-part7-notes: https://github.com/azitowolf/FSO-part7-notes
 FSO-part7-ultimate-hooks: https://github.com/azitowolf/FSO-part7-ultimate-hooks
-
+FSO-part7-blogs-frontend: https://github.com/azitowolf/FSO-part7-blog
+FSO-part7-blogs-backend: https://github.com/azitowolf/FSO-part7-blog-backend
